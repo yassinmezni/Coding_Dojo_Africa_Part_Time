@@ -1,0 +1,24 @@
+.MyCloud{
+   display: flex;
+   align-items: center;
+   background-color: black; 
+   font-family: cursive;
+}
+.My{
+    color: aliceblue;
+
+}
+.Cloud{
+    color: cyan;
+
+}
+.Completed{
+    background-color: blueviolet;
+    color: white;
+}
+.us{
+    background-color: aquamarine;
+    color: black;
+    text-align: right;
+    text-decoration: underline;
+}
