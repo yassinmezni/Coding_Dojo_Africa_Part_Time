@@ -1,0 +1,39 @@
+.container{
+    background-color: grey;
+    height: 900px;
+    width: 900px;
+    margin: 90px;
+    border: 1px solid black;
+    
+}
+#player{
+    width: 100px;
+    height: 100px;
+}
+.my_container{
+    background-color: antiquewhite;
+    display: flex; /* New line */
+    flex-wrap: wrap; /* Optional, for multiple lines */
+    justify-content: space-evenly;
+    margin: 50px;
+}
+#first{
+    background-color: rgb(33, 229, 255);
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#second{
+    background-color: rgb(255, 39, 219);
+    width: 800px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    
+}
+#third{
+    background-color: white;
+    width: 800px;
+    height: 150px;
+}
