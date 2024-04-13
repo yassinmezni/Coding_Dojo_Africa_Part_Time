@@ -1,0 +1,45 @@
+.container {
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+  }
+  
+  .top-nav {
+    height: 150px;
+    background-color: green;
+    display: flex;
+    justify-content: last baseline;
+  }
+  
+  .side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    float: left;
+  }
+  
+  .main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    display: flex; /* Keep the display: flex */
+    flex-wrap: wrap; /* New line */
+  }
+  
+  .sub-content {
+    height: 200px;
+    width: 110px; /* Adjust width as needed */
+    background-color: yellow;
+    margin: 10px; /* Optional, remove for no spacing */
+    display: inline-block;
+  }
+  
+  #advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+  }
+  
+  .main:after {
+    clear: both;
+  }
