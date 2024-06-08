@@ -1,0 +1,27 @@
+.card{
+    margin: 50px;
+    background-color: rgb(255, 255, 255);
+    height:400px;
+    width: 700px;
+    border: 1px solid;
+}
+.blue{
+    background-color: rgb(23,162,184);
+    height: 100px;
+    
+}
+.img{
+    height: 100px;
+    width: 120px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.map{
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+}
+.paragraph{
+    margin-left: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
